@@ -5,7 +5,7 @@ pipeline {
     AWS_REGION = "us-east-1"
     ECR_REPO = "141409473062.dkr.ecr.us-east-1.amazonaws.com/quote-app"
     IMAGE_TAG = "v${BUILD_NUMBER}"
-    MANIFEST_REPO = "git@github.com:preethyvenkat/quote-app-gitops.git"
+    MANIFEST_REPO = "git@github.com:preethyvenkat/quote-app.git"
   }
 
   stages {
